@@ -59,7 +59,7 @@ export async function indexRepo(repoFullName) {
     method: 'POST',
     body: JSON.stringify({
       type: 'repository',
-      url: `https://github.com/${repoFullName}`,
+      repository: repoFullName,
     }),
   });
 
