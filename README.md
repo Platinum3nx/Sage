@@ -6,6 +6,17 @@ Documentation that writes itself.
 
 [Install Sage on GitHub](https://github.com/apps/sage-wiki/installations/new)
 
+### How to install Sage on a repo
+
+1. Enable the repo's GitHub Wiki.
+2. Create the first wiki page in the repo's `Wiki` tab to initialize the wiki repo.
+3. Open [Install Sage on GitHub](https://github.com/apps/sage-wiki/installations/new).
+4. Choose your GitHub account or organization.
+5. Select the repo you want Sage to manage.
+6. Wait a few minutes for Sage to index the repo and generate wiki pages.
+
+If the wiki is enabled but still completely blank, Sage may not be able to write the initial pages until the wiki repo has been created by GitHub.
+
 ## What it does
 
 Sage reads your codebase using Nia and generates a living wiki in your repo's GitHub Wiki tab. Every push keeps it current. No writing. No maintenance. No going stale.
